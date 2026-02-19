@@ -1,0 +1,37 @@
+INSIGHTS I DISCOVERED 
+
+1. Top 5 Regions By Population
+   1. Tamil Nadu - 165,787,969
+   2. Bihar - 165,514,943
+   3. West Bengal - 153,265,505
+   4. Odisha - 152,625,346
+   5. Uttar Pradesh - 152,476,438
+
+2. Disaster Distribution By Type 
+   1. Unknown - 169 Disasters Happened and they weren't reported properly.
+   2. Droughts - 167 
+   3. Landslide - 161 
+   4. Cyclone - 158 
+   5. Flood - 152 
+   6. Earthquake - 150 
+   There is not a lot of distortion here.
+
+3. Monthly Disaster Trend Over Time 
+   1. Highest Month - June 2021 - 37 disasters 
+   2. Lowest Months - February 2021 and April 2024 - 9 disasters 
+   3. Year 2021 - March - 30 and June - 37 
+   4. Year 2022 - Highest - December - 30 , Lowest - January - 15 
+   5. Year 2023 - Consistent - Mostly 20-30 disasters a month 
+   6. Year 2024 - rising till March but sharp drop in April.
+
+4. Economic loss vs affected population scatter plot.
+   No strong linear relationship is observed between affected population and economic loss.
+   The dataset contains a large number of records where affected population or economic loss equals 0.
+   This is due to the business rule: missing affected people and losses were replaced with 0.
+
+5. Region-wise disaster frequency heatmap.
+   The distribution of various disaster types across regions is depicted in the heatmap. According to the analysis, the frequency of disasters varies greatly by region, suggesting patterns of vulnerability specific to each area.
+   The high frequency of landslides and cyclones in Tamil Nadu indicates a high risk of weather-related and coastal disasters. The region's climate variability is reflected in Gujarat's higher frequency of drought and flood events. Assam is exposed to multiple hazards, as evidenced by the comparatively higher frequency of earthquakes and cyclones.
+   Kerala and Uttar Pradesh exhibit less extreme peaks and a more balanced distribution of disaster types. The frequency of droughts is relatively higher in Odisha.
+   One noteworthy finding is the high number of disasters classified as "Unknown" in some areas, especially West Bengal. Missing disaster types were changed to "Unknown" in accordance with the business rule that was put into place. Consequently, greater values
+
